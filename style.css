@@ -1,0 +1,43 @@
+#main{
+  width: 100%;
+  height:100%;
+  background-color:#fff;
+}
+.container{
+  padding:10vw 25vw;
+}
+input{
+  width:100%;
+  padding:12px 22px;
+  font-size:30px;
+  font-weight:500;
+  border-radius:10px;
+  border:1px solid #dadada;
+  outline-color:royalblue;
+}
+.people{
+  margin-top:20px;
+  display:flex;
+  gap:10vh;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.person{
+  width:fit-content;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.img{
+  width:7vw;
+  height:7vw;
+  border-radius:50%;
+  background-color:red;
+  border:2px solid #dadada;
+  overflow:hidden;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
